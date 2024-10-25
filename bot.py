@@ -3,7 +3,7 @@ import time
 from requests.exceptions import RequestException
 bot = telebot.TeleBot('7060695421:AAGhq8DTppMGjYsf197ZWJAzCA01Iqpydec');
 
-f = open('abbr','r', encoding='UTF-8')
+f = open('abbr.txt','r', encoding='UTF-8')
 abbrs = f.read().split('\n')
 f.close()
 
